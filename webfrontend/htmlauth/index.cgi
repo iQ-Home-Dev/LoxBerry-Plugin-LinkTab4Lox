@@ -21,7 +21,7 @@ my $cfg = new Config::Simple("$lbpconfigdir/linktap4lox.cfg");
 # Um die Sprache der Hilfe brauchen wir uns im Code nicht weiter zu kümmern.
 
 
-LoxBerry::Web::lbheader($cfg{'SETTINGS.PLUGINNAME'} V $version", "http://www.loxwiki.eu/x/2wN7AQ", "help.html");
+LoxBerry::Web::lbheader("$cfg{'SETTINGS.PLUGINNAME'} V $version", "http://www.loxwiki.eu/x/2wN7AQ", "help.html");
 
 # Wir initialisieren unser Template. Der Pfad zum Templateverzeichnis steht in der globalen Variable $lbptemplatedir.
 
